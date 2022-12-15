@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fascinate&family=Fraunces:opsz,wght@9..144,200;9..144,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* footer */
+
+footer{
+    background-color: hsl(168, 56%, 63%);
+    margin-bottom: 0;
+    font-family: 'Fraunces', serif;
+    width: 100%;
+}
+
+.container-imgs{
+    display:flex;
+    margin: 0;
+    height: 50%;
+}
+
+.container-imgs img{
+    margin: 0;
+    padding:0px;
+    width: 25%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    color: hsl(168, 32%, 31%);
+    font-weight: bold;
+    padding: 5%;
+    padding-top: 7%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer-nav{
+    display: flex;
+    padding: 0;
+}
+
+.footer-nav li{
+    padding: 25px;
+    padding-top: 10px;
+    font-family: Barlow;
+    color: hsl(169, 33%, 35%);
+    font-weight: 500;
+}
+
+ul{
+    padding: 5%;
+}
+
+.social-media{
+    display: flex;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+.social-media li{
+    padding:25%;
+}
